@@ -1,0 +1,98 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DonaLee.Views.PageNuevaDonacion"
+             Title="Nuevo libro">
+    
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Cancelar" Clicked="Cancel_Clicked">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="cancel.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+        <ToolbarItem Text="Guardar" Clicked="Save_Clicked">
+            <ToolbarItem.Icon>
+                <OnPlatform x:TypeArguments="FileImageSource">
+                    <On Platform="UWP" Value="save.png"/>
+                </OnPlatform>
+            </ToolbarItem.Icon>
+        </ToolbarItem>
+    </ContentPage.ToolbarItems>
+    
+    <ContentPage.Content>
+        <StackLayout Spacing="20" Padding="15">
+            <Label Text="Descripcion" FontSize="Medium" />
+            <Entry Text="{Binding Item.Text}" FontSize="Small" />
+            <Label Text="" FontSize="Medium" />
+            <Editor Text="{Binding Item.Description}" FontSize="Small" Margin="0" />
+
+            <ScrollView>
+                <Grid RowSpacing="0">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="Auto"/>
+                    </Grid.RowDefinitions>
+
+                    <!-- header background -->
+                    <Image Source="HeaderBackground.png" Aspect="AspectFill"/>
+                    <Image Source="CurvedMask.png" Aspect="Fill"
+                   VerticalOptions="End"/>
+
+                    <!-- profile name -->
+                    <StackLayout Grid.Row="1" Padding="0,50,0,0">
+                        <Label Text="Jesus Angulo"
+                       Style="{StaticResource ProfileNameLabel}"/>
+                        <Label Text="Clean Code Lover"
+                       Style="{StaticResource ProfileTagLabel}"/>
+                    </StackLayout>
+
+                    <!-- social stats -->
+                    <Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <StackLayout Grid.Column="0">
+                            <Label Text="450" Style="{StaticResource StatsNumberLabel}"/>
+                            <Label Text="Likes" Style="{StaticResource StatsCaptionLabel}"/>
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="1">
+                            <Label Text="486" Style="{StaticResource StatsNumberLabel}"/>
+                            <Label Text="Following" Style="{StaticResource StatsCaptionLabel}"/>
+                        </StackLayout>
+
+                        <StackLayout Grid.Column="2">
+                            <Label Text="687" Style="{StaticResource StatsNumberLabel}"/>
+                            <Label Text="Followers" Style="{StaticResource StatsCaptionLabel}"/>
+                        </StackLayout>
+                    </Grid>
+                    <!-- profile description -->
+                    <Label Text="Author on SomosTechies.com, Software architect, Certified Xamarin Mobile Developer, UX enthusiast, mobile addicted and clean code lover"
+                Grid.Row="3"
+                Style="{StaticResource MainBodyLabel}"
+                   Margin="20,0"/>
+
+                    <!-- follow button -->
+                    <Button Text="Follow"
+                Style="{StaticResource FollowButton}"
+                Grid.Row="4"
+                Margin="20,0"/>
+                    <!-- profile image -->
+                    <Image Source="ProfilePic.png" 
+                   VerticalOptions="End" HorizontalOptions="Center"
+                   HeightRequest="100" WidthRequest="100"
+                   TranslationY="50"/>
+                </Grid>
+            </ScrollView>
+        </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>
