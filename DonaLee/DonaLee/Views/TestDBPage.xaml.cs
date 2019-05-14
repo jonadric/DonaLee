@@ -28,7 +28,7 @@ namespace DonaLee.Views
 
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            await conection.AddPerson(txtId.Text, txtName.Text,"Cas","");
+            await conection.AddUser(txtId.Text, txtName.Text,"Cas","",5);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             await DisplayAlert("Success", "Person Added Successfully", "OK");
@@ -38,7 +38,7 @@ namespace DonaLee.Views
 
         private async void BtnRetrive_Clicked(object sender, EventArgs e)
         {
-            var person = await conection.GetPerson("");
+            var person = await conection.GetUser("");
             if (person != null)
             {
                 txtId.Text = person.IdUsuario.ToString();
@@ -55,7 +55,7 @@ namespace DonaLee.Views
 
         private async void BtnUpdate_Clicked(object sender, EventArgs e)
         {
-            await conection.UpdatePerson(Convert.ToInt32(txtId.Text), txtName.Text);
+            await conection.UpdateUser(Convert.ToInt32(txtId.Text), txtName.Text);
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             await DisplayAlert("Success", "Person Updated Successfully", "OK");
@@ -65,7 +65,7 @@ namespace DonaLee.Views
 
         private async void BtnDelete_Clicked(object sender, EventArgs e)
         {
-            await conection.DeletePerson(Convert.ToInt32(txtId.Text));
+            await conection.DeleteUser(Convert.ToInt32(txtId.Text));
             await DisplayAlert("Success", "Person Deleted Successfully", "OK");
             var allUsers = await conection.GetAllUsers();
             lstUsers.ItemsSource = allUsers;

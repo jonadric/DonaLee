@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
+using DonaLee.Models;
 
 namespace DonaLee.Services
 {
@@ -11,5 +12,9 @@ namespace DonaLee.Services
         Task<bool> DeleteItemAsync(string id);
         Task<T> GetItemAsync(string id);
         Task<IEnumerable<T>> GetItemsAsync(bool forceRefresh = false);
+        Task AddItemAsync(Libro newItem);
+        
+
+
     }
 }

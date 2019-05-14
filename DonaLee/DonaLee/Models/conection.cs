@@ -29,15 +29,15 @@ namespace DonaLee.Models
               }).ToList();
         }
 
-        public async Task AddPerson(string CorreoUsuario, string NombresUsuario, string ApellidosUsuario , string Contrasenia)
+        public async Task AddUser(string CorreoUsuario, string NombresUsuario, string ApellidosUsuario , string Contrasenia,int idUsuario)
             {
 
                 await firebase
                   .Child("Users")
-                  .PostAsync(new Usuario() { CorreoUsuario = CorreoUsuario, NombresUsuario = NombresUsuario, ApellidosUsuario  = ApellidosUsuario ,ContraseniaUsuario= Contrasenia });
+                  .PostAsync(new Usuario() { CorreoUsuario = CorreoUsuario, NombresUsuario = NombresUsuario, ApellidosUsuario  = ApellidosUsuario ,ContraseniaUsuario= Contrasenia,IdUsuario=idUsuario });
             }
 
-            public async Task<Usuario> GetPerson(string correo)
+            public async Task<Usuario> GetUser(string correo)
             {
                 var allUsers = await GetAllUsers();
                 await firebase
@@ -46,7 +46,7 @@ namespace DonaLee.Models
                 return allUsers.Where(a => a.CorreoUsuario == correo).FirstOrDefault();
             }
 
-            public async Task UpdatePerson(int IdUsuario, string NombresUsuario)
+            public async Task UpdateUser(int IdUsuario, string NombresUsuario)
             {
                 var toUpdatePerson = (await firebase
                   .Child("Users")
@@ -58,7 +58,7 @@ namespace DonaLee.Models
                   .PutAsync(new Usuario() { IdUsuario = IdUsuario, NombresUsuario = NombresUsuario });
             }
 
-            public async Task DeletePerson(int IdUsuario)
+            public async Task DeleteUser(int IdUsuario)
             {
                 var toDeletePerson = (await firebase
                   .Child("Users")
@@ -66,7 +66,35 @@ namespace DonaLee.Models
                 await firebase.Child("Users").Child(toDeletePerson.Key).DeleteAsync();
 
             }
-        
+
+        public async Task<List<Libro>> GetAllBooks()
+        {
+
+            return (await firebase
+              .Child("Books")
+              .OnceAsync<Libro>()).Select(item => new Libro
+              {
+                  Anio__c = item.Object.Anio__c,
+                  Autor__c = item.Object.Autor__c,
+                  Editorial__c = item.Object.Editorial__c,
+                  IdBook = item.Object.IdBook,
+                  Imagen__c = item.Object.Imagen__c,
+                  ISBN__c = item.Object.ISBN__c,
+                  Titulo__c = item.Object.Titulo__c,
+                  Genero__c = item.Object.Genero__c,
+                  Descripcion__c = item.Object.Descripcion__c,
+                  Valoracion__c = item.Object.Valoracion__c,
+                  idUser=item.Object.idUser
+              }).ToList();
+        }
+        public async Task AddBook(Libro booksito,int idUser)
+        {
+
+            await firebase
+              .Child("Books")
+              .PostAsync(new Libro() { Anio__c = booksito.Anio__c, Autor__c = booksito.Autor__c, Descripcion__c = booksito.Descripcion__c, Editorial__c = booksito.Editorial__c, Genero__c = booksito.Genero__c, Imagen__c = booksito.Imagen__c, ISBN__c = booksito.ISBN__c, Titulo__c =booksito.Titulo__c,idUser= idUser.ToString(),IdBook=booksito.IdBook });
+        }
+
 
     }
 }

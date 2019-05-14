@@ -14,6 +14,7 @@ namespace DonaLee.Views
     public partial class Login : ContentPage
     {
         conection conection = new conection();
+        public Usuario UserApp;
         public Login()
         {
             InitializeComponent();
@@ -27,30 +28,14 @@ namespace DonaLee.Views
 
         async private void BtnEnter_Clicked(Object sender, EventArgs e)
         {
-           /* var allUsers = await conection.GetAllUsers();
-            for (int i = 0; i < allUsers.Count; i++)
-            {
-                if (allUsers[i].CorreoUsuario== txtCorreo.Text && allUsers[i].ContraseniaUsuario == txtContrasenia.Text)
-                {
-                    App.Current.MainPage = new MainPage();
-                    txtContrasenia.Text = "";
-                    txtCorreo.Text = "";
-                    break;
-                }
-                else
-                {
-                    await DisplayAlert("Alert", "Verfica contraseña o usuario", "OK");
-                }
-            }*/
-
-
-            var User = await conection.GetPerson(txtCorreo.Text);
-            if (User != null)
+            UserApp = await conection.GetUser(txtCorreo.Text);
+            if (UserApp != null)
             {
                 // txtCorreo.Text = User.IdUsuario.ToString();
-                if (txtContrasenia.Text == User.ContraseniaUsuario)
+                if (txtContrasenia.Text == UserApp.ContraseniaUsuario)
                 {
                     await DisplayAlert("DonaLee", "Bienvenido", "OK");
+                    App.Current.Properties["id_User"] = UserApp.IdUsuario.ToString();
                     App.Current.MainPage = new MainPage();
                 }
                 else

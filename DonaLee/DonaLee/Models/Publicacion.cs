@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace LibrosApp.Models
+namespace DonaLee.Models
 {
     public class Publicacion
     {

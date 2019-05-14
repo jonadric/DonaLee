@@ -26,15 +26,20 @@ namespace DonaLee.Views
 
         private async void BtnRegistrar(Object sender, EventArgs args)
         {
-            var User = await conection.GetPerson(txtCorreo.Text);
+            var User = await conection.GetUser(txtCorreo.Text);
             if (User != null)
             {
                 await DisplayAlert("Error", "El usuario ya esta registrado con este correo", "OK");
             }
             else
             {
-           
-            await conection.AddPerson(txtCorreo.Text, txtNombre.Text,txtApellido.Text,txtContrasenia.Text);
+
+                var allUsers1 = await conection.GetAllUsers();
+                var CodNuevoGenerado = allUsers1.Last(); 
+                CodNuevoGenerado.IdUsuario = CodNuevoGenerado.IdUsuario +1;
+
+
+                await conection.AddUser(txtCorreo.Text, txtNombre.Text,txtApellido.Text,txtContrasenia.Text, CodNuevoGenerado.IdUsuario);
             txtCorreo.Text = string.Empty;
             txtNombre.Text = string.Empty;
             txtApellido.Text = string.Empty;

@@ -12,7 +12,7 @@ namespace DonaLee.ViewModels
 {
     public class BaseViewModel : INotifyPropertyChanged
     {
-        public IDataStore<Item> DataStore => DependencyService.Get<IDataStore<Item>>() ?? new MockDataStore();
+        public IDataStore<Libro> DataStore => DependencyService.Get<IDataStore<Libro>>() ?? new MockDataStore();
 
         bool isBusy = false;
         public bool IsBusy

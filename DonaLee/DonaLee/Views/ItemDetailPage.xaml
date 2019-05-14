@@ -4,9 +4,75 @@
              x:Class="DonaLee.Views.ItemDetailPage"
              Title="{Binding Title}">
     <StackLayout Spacing="20" Padding="15">
+        <ScrollView>
+            <Grid RowSpacing="0">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- header background -->
+                <Image Source="HeaderBackground.png" Aspect="AspectFill"/>
+                <Image Source="CurvedMask.png" Aspect="Fill"
+                   VerticalOptions="End"/>
+
+                <!-- profile name -->
+                <StackLayout Grid.Row="1" Padding="0,50,0,0">
+                    <Label Text="{Binding Item.Text}"
+                       Style="{StaticResource ProfileNameLabel}"/>
+                    <Label Text="Clean Code Lover"
+                       Style="{StaticResource ProfileTagLabel}"/>
+                </StackLayout>
+
+                <!-- social stats -->
+                <Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <StackLayout Grid.Column="0">
+                        <Label Text="450" Style="{StaticResource StatsNumberLabel}"/>
+                        <Label Text="Likes" Style="{StaticResource StatsCaptionLabel}"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="1">
+                        <Label Text="486" Style="{StaticResource StatsNumberLabel}"/>
+                        <Label Text="Following" Style="{StaticResource StatsCaptionLabel}"/>
+                    </StackLayout>
+
+                    <StackLayout Grid.Column="2">
+                        <Label Text="687" Style="{StaticResource StatsNumberLabel}"/>
+                        <Label Text="Followers" Style="{StaticResource StatsCaptionLabel}"/>
+                    </StackLayout>
+                </Grid>
+                <!-- profile description -->
+                <Label Text="{Binding Item.Description}"
+                Grid.Row="3"
+                Style="{StaticResource MainBodyLabel}"
+                   Margin="20,0"/>
+
+                <!-- follow button -->
+                <Button Text="Follow"
+                Style="{StaticResource FollowButton}"
+                Grid.Row="4"
+                Margin="20,0"/>
+                <!-- profile image -->
+                <Image Source="ProfilePic.png" 
+                   VerticalOptions="End" HorizontalOptions="Center"
+                   HeightRequest="100" WidthRequest="100"
+                   TranslationY="50"/>
+            </Grid>
+        </ScrollView>
+        
         <Label Text="Text:" FontSize="Medium" />
         <Label Text="{Binding Item.Text}" FontSize="Small"/>
         <Label Text="Description:" FontSize="Medium" />
         <Label Text="{Binding Item.Description}" FontSize="Small"/>
+        
     </StackLayout>
 </ContentPage>

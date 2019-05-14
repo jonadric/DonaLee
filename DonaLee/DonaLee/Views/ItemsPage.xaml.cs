@@ -27,7 +27,7 @@ namespace DonaLee.Views
 
         async void OnItemSelected(object sender, SelectedItemChangedEventArgs args)
         {
-            var item = args.SelectedItem as Item;
+            var item = args.SelectedItem as Libro;
             if (item == null)
                 return;
 
@@ -46,8 +46,13 @@ namespace DonaLee.Views
         {
             base.OnAppearing();
 
-            if (viewModel.Items.Count == 0)
+            if (viewModel.ItemsBooks.Count == 0)
                 viewModel.LoadItemsCommand.Execute(null);
+        }
+
+        async private void BtnRegistrar(object sender, EventArgs e)
+        {
+            await DisplayAlert("Alert", ""+ viewModel.ItemsBooks, "Ok");
         }
     }
 }

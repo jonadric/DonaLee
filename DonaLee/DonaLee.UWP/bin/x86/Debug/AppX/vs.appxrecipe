@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-14T01:20:40.193</Modified>
+      <Modified>2019-05-14T16:29:13.666</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.exe">
       <PackagePath>entrypoint\DonaLee.UWP.exe</PackagePath>
-      <Modified>2019-05-14T01:20:32.110</Modified>
+      <Modified>2019-05-14T16:29:12.103</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\firebasedatabase.net\4.0.1\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
@@ -88,7 +88,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\bin\Debug\netstandard2.0\DonaLee.dll">
       <PackagePath>DonaLee.dll</PackagePath>
-      <Modified>2019-05-14T01:09:47.919</Modified>
+      <Modified>2019-05-14T16:29:05.866</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProgramData\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
@@ -255,11 +255,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-14T01:20:30.361</Modified>
+      <Modified>2019-05-14T16:29:11.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-14T01:20:30.362</Modified>
+      <Modified>2019-05-14T16:29:11.850</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -275,7 +275,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\DonaLee.UWP.exe">
       <PackagePath>DonaLee.UWP.exe</PackagePath>
-      <Modified>2019-05-14T01:20:39.931</Modified>
+      <Modified>2019-05-14T16:29:13.653</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

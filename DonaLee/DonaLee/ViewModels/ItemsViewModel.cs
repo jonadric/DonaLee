@@ -12,21 +12,36 @@ namespace DonaLee.ViewModels
 {
     public class ItemsViewModel : BaseViewModel
     {
-        public ObservableCollection<Item> Items { get; set; }
+        conection conection = new conection();
+
+        public ObservableCollection<Libro> ItemsBooks { get; set; }
         public Command LoadItemsCommand { get; set; }
 
-        public ItemsViewModel()
+         public ItemsViewModel()
         {
-            Title = "🏠";
-            Items = new ObservableCollection<Item>();
+            Title = "Libros";
+            ItemsBooks = new ObservableCollection<Libro>();
             LoadItemsCommand = new Command(async () => await ExecuteLoadItemsCommand());
 
-            MessagingCenter.Subscribe<PageNuevaDonacion, Item>(this, "AddItem", async (obj, item) =>
+            ///VAMOS A LLENAR DESDE UN COMIENZO
+            ///
+            llenarDeComienzo();
+
+            //MessagingCenter.Subscribe<PageNuevaDonacion, Libro>(this, "AddBook", async (obj, item) =>
+            //{
+            //    var newItem = item as Libro;
+            //    newItem.Autor__c = "jejejej";
+            //    ItemsBooks.Add(newItem);
+            //    await DataStore.AddItemAsync(newItem);
+            //});
+        }
+
+        async Task llenarDeComienzo() {
+            var allBoks = await conection.GetAllBooks();
+            foreach (var libro in allBoks)
             {
-                var newItem = item as Item;
-                Items.Add(newItem);
-                await DataStore.AddItemAsync(newItem);
-            });
+                ItemsBooks.Add(libro);
+            }
         }
 
         async Task ExecuteLoadItemsCommand()
@@ -34,15 +49,18 @@ namespace DonaLee.ViewModels
             if (IsBusy)
                 return;
 
-            IsBusy = true;
+            IsBusy = false;
 
             try
             {
-                Items.Clear();
+                ItemsBooks.Clear();
+                var allBoks = await conection.GetAllBooks();
+
+
                 var items = await DataStore.GetItemsAsync(true);
-                foreach (var item in items)
+                foreach (var libro in allBoks)
                 {
-                    Items.Add(item);
+                    ItemsBooks.Add(libro);
                 }
             }
             catch (Exception ex)
