@@ -112,7 +112,11 @@ class MonoPackageManager_Resources {
 		/* We need to ensure that "DonaLee.Android.dll" comes first in this list. */
 		"DonaLee.Android.dll",
 		"DonaLee.dll",
+		"Firebase.dll",
 		"FormsViewGroup.dll",
+		"LiteDB.dll",
+		"Newtonsoft.Json.dll",
+		"System.Reactive.dll",
 		"Xamarin.Android.Arch.Core.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Common.dll",
 		"Xamarin.Android.Arch.Lifecycle.Runtime.dll",

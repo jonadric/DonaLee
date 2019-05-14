@@ -29,6 +29,7 @@ C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandar
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\DonaLee.csproj.CoreCompileInputs.cache
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\DonaLee.AssemblyInfoInputs.cache
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\DonaLee.AssemblyInfo.cs
-C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\DonaLee.dll
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\DonaLee.pdb
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\Views\TestDBPage.xaml.g.cs
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\XamlC.stamp

@@ -13,7 +13,7 @@ namespace LibrosApp.Models
         public String Libro__c { get; set; }
         public String Usuario__c { get; set; }
         public Libro Libro__r { get; set; }
-        public Usuario Usuario__r { get; set; }
+        public String Usuario__r { get; set; }
         public String NombreLibro { get; set; }
         public String NombreAutor { get; set; }
         public String NombreUsuario { get; set; }
@@ -21,7 +21,7 @@ namespace LibrosApp.Models
         public String Valoracion { get; set; }
         public String Genero { get; set; }
         public String ISBN { get; set; }
-        public Usuario Donatario__r { get; set; }
+        public String Donatario__r { get; set; }
         public String IdUsuario { get; set; }
         public String MensajeDonante { get; set; }
         public String Lugar { get; set; }

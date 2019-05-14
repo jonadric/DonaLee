@@ -446,6 +446,16 @@ C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\stamp\_CopyMdbFiles.stamp
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\stamp\_CopyPdbFiles.stamp
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\linksrc\Firebase.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\linksrc\LiteDB.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\linksrc\Newtonsoft.Json.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\linksrc\System.Reactive.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\linksrc\System.Runtime.InteropServices.WindowsRuntime.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\android\assets\Firebase.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\android\assets\LiteDB.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\android\assets\Newtonsoft.Json.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\android\assets\System.Reactive.dll
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\android\assets\machine.config
-C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\stamp\_GeneratePackageManagerJava.stamp
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.Android\obj\Debug\81\stamp\_CompileToDalvik.stamp

@@ -1,5 +1,9 @@
 DonaLee
+Firebase
 FormsViewGroup
+LiteDB
+Newtonsoft.Json
+System.Reactive
 System.Runtime
 Xamarin.Android.Arch.Core.Common
 Xamarin.Android.Arch.Lifecycle.Common
@@ -32,3 +36,4 @@ Xamarin.GooglePlayServices.Basement
 Xamarin.GooglePlayServices.Maps
 Xamarin.GooglePlayServices.Tasks
 netstandard
+System.Runtime.InteropServices.WindowsRuntime
