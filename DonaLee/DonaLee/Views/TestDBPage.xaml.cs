@@ -28,7 +28,7 @@ namespace DonaLee.Views
 
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            await conection.AddPerson(Convert.ToInt32(txtId.Text), txtName.Text);
+            await conection.AddPerson(txtId.Text, txtName.Text,"Cas","123");
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             await DisplayAlert("Success", "Person Added Successfully", "OK");

@@ -29,12 +29,12 @@ namespace DonaLee.Models
               }).ToList();
         }
 
-        public async Task AddPerson(int IdUsuario, string NombresUsuario)
+        public async Task AddPerson(string CorreoUsuario, string NombresUsuario, string ApellidosUsuario , string Contrasenia)
             {
 
                 await firebase
                   .Child("Users")
-                  .PostAsync(new Usuario() { IdUsuario = IdUsuario, NombresUsuario = NombresUsuario });
+                  .PostAsync(new Usuario() { CorreoUsuario = CorreoUsuario, NombresUsuario = NombresUsuario, ApellidosUsuario  = ApellidosUsuario , ContraseniaUsuario = Contrasenia });
             }
 
             public async Task<Usuario> GetPerson(int IdUsuario)

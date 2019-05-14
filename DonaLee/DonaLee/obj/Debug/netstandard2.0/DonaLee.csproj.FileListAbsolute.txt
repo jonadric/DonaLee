@@ -33,3 +33,5 @@ C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandar
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\DonaLee.pdb
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\Views\TestDBPage.xaml.g.cs
 C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\Views\Login.xaml.g.cs
+C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\obj\Debug\netstandard2.0\Views\Registro.xaml.g.cs
