@@ -84,7 +84,9 @@ namespace DonaLee.Models
                   Genero__c = item.Object.Genero__c,
                   Descripcion__c = item.Object.Descripcion__c,
                   Valoracion__c = item.Object.Valoracion__c,
-                  idUser=item.Object.idUser
+                  idUser = item.Object.idUser,
+                  Paginas = item.Object.Paginas,
+                  Ubicacion = item.Object.Ubicacion
               }).ToList();
         }
         public async Task AddBook(Libro booksito,int idUser)
@@ -92,7 +94,7 @@ namespace DonaLee.Models
 
             await firebase
               .Child("Books")
-              .PostAsync(new Libro() { Anio__c = booksito.Anio__c, Autor__c = booksito.Autor__c, Descripcion__c = booksito.Descripcion__c, Editorial__c = booksito.Editorial__c, Genero__c = booksito.Genero__c, Imagen__c = booksito.Imagen__c, ISBN__c = booksito.ISBN__c, Titulo__c =booksito.Titulo__c,idUser= idUser.ToString(),IdBook=booksito.IdBook });
+              .PostAsync(new Libro() { Anio__c = booksito.Anio__c, Autor__c = booksito.Autor__c, Descripcion__c = booksito.Descripcion__c, Editorial__c = booksito.Editorial__c, Genero__c = booksito.Genero__c, Imagen__c = booksito.Imagen__c, ISBN__c = booksito.ISBN__c, Titulo__c =booksito.Titulo__c,idUser= idUser.ToString(),IdBook=booksito.IdBook,Paginas=booksito.Paginas,Ubicacion=booksito.Ubicacion});
         }
 
 

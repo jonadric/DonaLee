@@ -15,7 +15,7 @@ namespace DonaLee.Services
             itemsBooks = new List<Libro>();
             var mockItems = new List<Libro>
             {
-                new Libro {Anio__c="1996",Autor__c="Davidapps",Descripcion__c="Este es el mejor libro",Editorial__c="VisualSolution",Genero__c="Comedia",IdBook=000,Imagen__c="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Csharp_Logo.png/245px-Csharp_Logo.png",ISBN__c="00000001",Titulo__c="EL AMO DE TODO",Valoracion__c="5" }
+                new Libro {Anio__c="1996",Autor__c="Davidapps",Descripcion__c="Este es el mejor libro",Editorial__c="VisualSolution",Genero__c="Comedia",IdBook=000,Imagen__c="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Csharp_Logo.png/245px-Csharp_Logo.png",ISBN__c="00000001",Titulo__c="EL AMO DE TODO",Valoracion__c=5}
             };
 
             foreach (var item in mockItems)

@@ -15,16 +15,17 @@
                 </Grid.RowDefinitions>
 
                 <!-- header background -->
-                <Image Source="HeaderBackground.png" Aspect="AspectFill"/>
-                <Image Source="CurvedMask.png" Aspect="Fill"
+                <Image Source="https://dazzet.co/wp-content/uploads/sites/26/2017/04/PG-08-s01-background-bogota.jpg" Aspect="AspectFill"/>
+                <Image Source="https://perronocomeperroblog.files.wordpress.com/2016/05/cropped-cabecera-pncp.jpg" Aspect="Fill"
                    VerticalOptions="End"/>
 
                 <!-- profile name -->
                 <StackLayout Grid.Row="1" Padding="0,50,0,0">
-                    <Label Text="{Binding Item.Text}"
+                    <Label Text="{Binding Item.Titulo__c}"
                        Style="{StaticResource ProfileNameLabel}"/>
-                    <Label Text="Clean Code Lover"
+                    <Label Text="{Binding Item.Autor__c}"
                        Style="{StaticResource ProfileTagLabel}"/>
+                    <Label  Text="{Binding Item.Paginas}"  Style="{StaticResource ProfileNameLabel}"/>
                 </StackLayout>
 
                 <!-- social stats -->
@@ -37,42 +38,37 @@
 
                     <StackLayout Grid.Column="0">
                         <Label Text="450" Style="{StaticResource StatsNumberLabel}"/>
-                        <Label Text="Likes" Style="{StaticResource StatsCaptionLabel}"/>
+                        <Label Text="Me gusta" Style="{StaticResource StatsCaptionLabel}"/>
                     </StackLayout>
 
                     <StackLayout Grid.Column="1">
-                        <Label Text="486" Style="{StaticResource StatsNumberLabel}"/>
-                        <Label Text="Following" Style="{StaticResource StatsCaptionLabel}"/>
+                        <Label Text="4" Style="{StaticResource StatsNumberLabel}"/>
+                        <Label Text="Lo Leyeron" Style="{StaticResource StatsCaptionLabel}"/>
                     </StackLayout>
 
                     <StackLayout Grid.Column="2">
-                        <Label Text="687" Style="{StaticResource StatsNumberLabel}"/>
-                        <Label Text="Followers" Style="{StaticResource StatsCaptionLabel}"/>
+                        <Label Text="2" Style="{StaticResource StatsNumberLabel}"/>
+                        <Label Text="Lo donaron" Style="{StaticResource StatsCaptionLabel}"/>
                     </StackLayout>
                 </Grid>
                 <!-- profile description -->
-                <Label Text="{Binding Item.Description}"
+                <Label Text="{Binding Item.Descripcion__c}"
                 Grid.Row="3"
                 Style="{StaticResource MainBodyLabel}"
                    Margin="20,0"/>
 
                 <!-- follow button -->
-                <Button Text="Follow"
+                <Button Text="¡Lo quiero!"
                 Style="{StaticResource FollowButton}"
                 Grid.Row="4"
+                        Clicked="BntPedir"
                 Margin="20,0"/>
                 <!-- profile image -->
-                <Image Source="ProfilePic.png" 
+                <Image Source="{Binding Item.Imagen__c}" 
                    VerticalOptions="End" HorizontalOptions="Center"
-                   HeightRequest="100" WidthRequest="100"
+                   HeightRequest="250" WidthRequest="250"
                    TranslationY="50"/>
             </Grid>
         </ScrollView>
-        
-        <Label Text="Text:" FontSize="Medium" />
-        <Label Text="{Binding Item.Text}" FontSize="Small"/>
-        <Label Text="Description:" FontSize="Medium" />
-        <Label Text="{Binding Item.Description}" FontSize="Small"/>
-        
     </StackLayout>
 </ContentPage>

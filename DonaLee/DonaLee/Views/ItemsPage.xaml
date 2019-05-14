@@ -28,7 +28,11 @@
                 <DataTemplate>
                     <ViewCell>
                         <StackLayout Padding="10">
-                            <Label Text="{Binding Autor__c}" 
+                            <Image Source="{Binding Imagen__c}" 
+                   VerticalOptions="End" HorizontalOptions="Center"
+                   HeightRequest="70" WidthRequest="50"
+                   TranslationY="10"/>
+                            <Label Text="{Binding Titulo__c}" 
                                 LineBreakMode="NoWrap" 
                                 Style="{DynamicResource ListItemTextStyle}" 
                                 FontSize="16" />
@@ -36,12 +40,17 @@
                                 LineBreakMode="NoWrap"
                                 Style="{DynamicResource ListItemDetailTextStyle}"
                                 FontSize="13" />
+                            <Label Text="{Binding Autor__c}" 
+                                LineBreakMode="NoWrap"
+                                Style="{DynamicResource ListItemDetailTextStyle}"
+                                FontSize="8" />
+                            
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
             </ListView.ItemTemplate>
         </ListView>
-        <Button x:Name="buscar" WidthRequest="200" Text="Registrar" Clicked="BtnRegistrar"/>
+        <Button x:Name="buscar" WidthRequest="200" Text="BUSCAR ♥" Clicked="BtnRegistrar"/>
     </StackLayout>
     
 </ContentPage>

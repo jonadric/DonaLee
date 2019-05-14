@@ -11,6 +11,7 @@ namespace DonaLee.Views
         public AboutPage()
         {
             InitializeComponent();
+            webView.Source = "https://www.google.com/maps/search/?api=1&query=58.698017,-152.522067";
         }
     }
 }

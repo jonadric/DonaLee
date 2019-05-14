@@ -15,8 +15,13 @@ namespace DonaLee.Models
         public String Titulo__c { get; set; }
         public String Genero__c { get; set; }
         public String Descripcion__c { get; set; }
-        public String Valoracion__c { get; set; }
-        public String idUser { get; set; }     
+        public int Valoracion__c { get; set; }
+        public String idUser { get; set; } 
+        
+        public int Paginas { get; set; }
+
+        public Ubicacion Ubicacion { get; set; }
+        
         public Libro()
         {
 
@@ -29,5 +34,8 @@ namespace DonaLee.Models
                 + Anio__c + " " + "Imagen__c :" + Imagen__c + " " + "Genero__c :" + Genero__c + " " 
                 + "Descripcion__c :" + Descripcion__c + "]";
         }
+
+        
     }
+   
 }

@@ -25,7 +25,7 @@ namespace DonaLee.ViewModels
 
             ///VAMOS A LLENAR DESDE UN COMIENZO
             ///
-            llenarDeComienzo();
+          //  llenarDeComienzo();
 
             //MessagingCenter.Subscribe<PageNuevaDonacion, Libro>(this, "AddBook", async (obj, item) =>
             //{
@@ -49,7 +49,7 @@ namespace DonaLee.ViewModels
             if (IsBusy)
                 return;
 
-            IsBusy = false;
+            IsBusy = true;
 
             try
             {
@@ -57,7 +57,7 @@ namespace DonaLee.ViewModels
                 var allBoks = await conection.GetAllBooks();
 
 
-                var items = await DataStore.GetItemsAsync(true);
+                //var items = await DataStore.GetItemsAsync(true);
                 foreach (var libro in allBoks)
                 {
                     ItemsBooks.Add(libro);

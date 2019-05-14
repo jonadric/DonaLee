@@ -21,7 +21,7 @@ namespace DonaLee.Views
         {
             base.OnAppearing();
             var allUsers = await conection.GetAllUsers();
-            lstUsers.ItemsSource = allUsers;
+            //lstUsers.ItemsSource = allUsers;
         }
 
         private async void BtnRegistrar(Object sender, EventArgs args)
