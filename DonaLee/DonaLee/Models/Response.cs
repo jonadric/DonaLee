@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
 
-namespace LibrosApp.Models
+namespace DonaLee.Models
 {
     class Response
     {
-        public Usuario Usuario { get; set; }
+        public String Usuario { get; set; }
         public Boolean Resultado { get; set; }        
         public String Mensaje { get; set; }
         public Libro Libro { get; set; }

@@ -24,10 +24,10 @@ namespace DonaLee.Views
         {
             InitializeComponent();
 
-            var item = new Item
+            var item = new Libro
             {
-                Text = "Item 1",
-                Description = "This is an item description."
+                Titulo__c = "Item 1",
+                Descripcion__c = "This is an item descriptio11111n."
             };
 
             viewModel = new ItemDetailViewModel(item);

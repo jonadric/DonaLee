@@ -32,6 +32,9 @@ namespace DonaLee.Views
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;
+                    case (int)MenuItemType.Prueba:
+                        MenuPages.Add(id, new NavigationPage(new TestDBPage()));
+                        break;
                 }
             }
 

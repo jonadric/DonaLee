@@ -6,6 +6,7 @@ namespace DonaLee.Models
 {
     public enum MenuItemType
     {
+        Prueba,
         Browse,
         About
     }

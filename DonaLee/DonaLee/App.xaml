@@ -79,9 +79,9 @@
                 <Setter Property="FontFamily" Value="{StaticResource MediumFontFamily}" />
                 <Setter Property="FontSize" Value="{StaticResource ButtonFontSize}" />
             </Style>
-            
-          
-            <Color x:Key="NavigationPrimary">#f3212d</Color>
+
+
+            <Color x:Key="NavigationPrimary">#212df3</Color>
             <Style TargetType="NavigationPage">
                 <Setter Property="BarBackgroundColor" Value="{StaticResource NavigationPrimary}" />
                 <Setter Property="BarTextColor" Value="White" />

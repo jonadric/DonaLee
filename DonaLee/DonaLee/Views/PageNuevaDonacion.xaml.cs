@@ -11,16 +11,18 @@ namespace DonaLee.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class PageNuevaDonacion : ContentPage
     {
-        public Item Item { get; set; }
+        public Libro _libro { get; set; }
+        conection conection = new conection();
+
 
         public PageNuevaDonacion()
         {
             InitializeComponent();
 
-            Item = new Item
+            _libro = new Libro
             {
-                Text = "Descripcion del libro",
-                Description = "This is an item description."
+                Autor__c = "",
+                Descripcion__c = ""
             };
 
             BindingContext = this;
@@ -28,7 +30,15 @@ namespace DonaLee.Views
 
         async void Save_Clicked(object sender, EventArgs e)
         {
-            MessagingCenter.Send(this, "Añadir", Item);
+                await DisplayAlert("DonaLee", "Libro "+_libro.Titulo__c+" cargado.", "OK");
+            // MessagingCenter.Send(this, "Añadir", _libro);
+
+
+            var allBoks = await conection.GetAllBooks();
+            var CodBookNuevoGenerado = allBoks[allBoks.Count -1];
+            _libro.IdBook = CodBookNuevoGenerado.IdBook + 1;
+            var valor = Application.Current.Properties["id_User"];
+            await conection.AddBook(_libro, int.Parse(valor.ToString()));
             await Navigation.PopModalAsync();
         }
 
