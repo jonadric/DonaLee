@@ -23,7 +23,7 @@ namespace DonaLee.Views
         {
             base.OnAppearing();
             var allUsers = await conection.GetAllUsers();
-            lstUsers.ItemsSource = allUsers;
+            //lstUsers.ItemsSource = allUsers;
         }
 
         async private void BtnEnter_Clicked(Object sender, EventArgs e)

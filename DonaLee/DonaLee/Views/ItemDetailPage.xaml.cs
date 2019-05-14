@@ -32,6 +32,13 @@ namespace DonaLee.Views
 
             viewModel = new ItemDetailViewModel(item);
             BindingContext = viewModel;
+
+        }
+
+       async private void BntPedir(object sender, EventArgs e)
+        {
+            await Navigation.PushModalAsync(new AboutPage());
+
         }
     }
 }

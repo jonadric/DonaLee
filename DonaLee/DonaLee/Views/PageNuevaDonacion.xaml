@@ -22,21 +22,30 @@
     </ContentPage.ToolbarItems>
     
     <ContentPage.Content>
-        <StackLayout Spacing="20" Padding="15">
-            <Label Text="Titulo" FontSize="Medium" />
-            <Entry Text="{Binding _libro.Titulo__c}" Placeholder="Descripcion del libro" FontSize="Small" />
-            <Label Text="Autor" FontSize="Medium" />
-            <Editor Text="{Binding _libro.Autor__c}" Placeholder="Aqui pones la descripcion." FontSize="Small" Margin="0" />
-            <Label Text="Año" FontSize="Medium" />
-            <Entry Text="{Binding _libro.Anio__c}" Placeholder="Descripcion del libro" FontSize="Small" />
-            <Label Text="Editorial" FontSize="Medium" />
-            <Entry Text="{Binding _libro.Editorial__c}" Placeholder="Descripcion del libro" FontSize="Small" />
-            <Label Text="Genero" FontSize="Medium" />
-            <Entry Text="{Binding _libro.Genero__c}" Placeholder="Descripcion del libro" FontSize="Small" />
-            <Label Text="Descripción" FontSize="Medium" />
-            <Entry Text="{Binding _libro.Descripcion__c}" Placeholder="Descripcion del libro" FontSize="Small" />
-            <Button Text="IMAGEN"></Button> 
-        </StackLayout>
+        <ScrollView>
+            <StackLayout Spacing="20" Padding="15">
+                <Label Text="Titulo" FontSize="Medium" />
+                <Entry Text="{Binding _libro.Titulo__c}" Placeholder="Nombre del libro" FontSize="Small" />
+                <Label Text="Autor" FontSize="Medium" />
+                <Editor Text="{Binding _libro.Autor__c}" Placeholder="Autor del libro" FontSize="Small" Margin="0" />
+                <Label Text="Año" FontSize="Medium" />
+                <DatePicker  Date="{Binding _libro.Anio__c}" />
+                <Label Text="Editorial" FontSize="Medium" />
+                <Entry Text="{Binding _libro.Editorial__c}" Placeholder="Descripcion del libro" FontSize="Small" />
+                <Label Text="Genero" FontSize="Medium" />
+                <Picker Title="Select a monkey"
+        TitleColor="Red"
+        ItemsSource="{Binding Monkeys}"
+        ItemDisplayBinding="{Binding Name}" />
+                <Entry Text="{Binding _libro.Genero__c}" Placeholder="Descripcion del libro" FontSize="Small" />
+                <Label Text="Descripción" FontSize="Medium" />
+                <Entry Text="{Binding _libro.Descripcion__c}" Placeholder="Descripcion del libro" FontSize="Small" />
+                <Label Text="Paginas" FontSize="Medium" />
+                <Entry Text="{Binding _libro.Paginas,Mode=TwoWay}" Keyboard="Numeric" Placeholder="Numero de paginas" FontSize="Small" />
+                <Button Style="{StaticResource FollowButton}" Text="TOMAR IMAGEN"></Button>
+               </StackLayout>
+
+        </ScrollView>
         
     </ContentPage.Content>
 </ContentPage>

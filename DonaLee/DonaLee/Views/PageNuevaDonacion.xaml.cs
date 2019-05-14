@@ -22,7 +22,9 @@ namespace DonaLee.Views
             _libro = new Libro
             {
                 Autor__c = "",
-                Descripcion__c = ""
+                Descripcion__c = "",
+                Imagen__c="",
+                Ubicacion=new Ubicacion()
             };
 
             BindingContext = this;
