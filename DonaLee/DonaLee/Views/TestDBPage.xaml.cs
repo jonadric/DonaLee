@@ -28,7 +28,7 @@ namespace DonaLee.Views
 
         private async void BtnAdd_Clicked(object sender, EventArgs e)
         {
-            await conection.AddPerson(txtId.Text, txtName.Text,"Cas","123");
+            await conection.AddPerson(txtId.Text, txtName.Text,"Cas","");
             txtId.Text = string.Empty;
             txtName.Text = string.Empty;
             await DisplayAlert("Success", "Person Added Successfully", "OK");
@@ -38,7 +38,7 @@ namespace DonaLee.Views
 
         private async void BtnRetrive_Clicked(object sender, EventArgs e)
         {
-            var person = await conection.GetPerson(Convert.ToInt32(txtId.Text));
+            var person = await conection.GetPerson("");
             if (person != null)
             {
                 txtId.Text = person.IdUsuario.ToString();

@@ -34,16 +34,16 @@ namespace DonaLee.Models
 
                 await firebase
                   .Child("Users")
-                  .PostAsync(new Usuario() { CorreoUsuario = CorreoUsuario, NombresUsuario = NombresUsuario, ApellidosUsuario  = ApellidosUsuario , ContraseniaUsuario = Contrasenia });
+                  .PostAsync(new Usuario() { CorreoUsuario = CorreoUsuario, NombresUsuario = NombresUsuario, ApellidosUsuario  = ApellidosUsuario ,ContraseniaUsuario= Contrasenia });
             }
 
-            public async Task<Usuario> GetPerson(int IdUsuario)
+            public async Task<Usuario> GetPerson(string correo)
             {
                 var allUsers = await GetAllUsers();
                 await firebase
                   .Child("Users")
                   .OnceAsync<Usuario>();
-                return allUsers.Where(a => a.IdUsuario == IdUsuario).FirstOrDefault();
+                return allUsers.Where(a => a.CorreoUsuario == correo).FirstOrDefault();
             }
 
             public async Task UpdatePerson(int IdUsuario, string NombresUsuario)
