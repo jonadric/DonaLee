@@ -15,7 +15,7 @@
                 </Grid.RowDefinitions>
 
                 <!-- header background -->
-                <Image Source="https://dazzet.co/wp-content/uploads/sites/26/2017/04/PG-08-s01-background-bogota.jpg" Aspect="AspectFill"/>
+                <!--<Image Source="https://dazzet.co/wp-content/uploads/sites/26/2017/04/PG-08-s01-background-bogota.jpg" Aspect="AspectFill"/>-->
                 <Image Source="https://perronocomeperroblog.files.wordpress.com/2016/05/cropped-cabecera-pncp.jpg" Aspect="Fill"
                    VerticalOptions="End"/>
 

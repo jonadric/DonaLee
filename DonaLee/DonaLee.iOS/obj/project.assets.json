@@ -1979,11 +1979,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee.iOS\\DonaLee.iOS.csproj",
+      "projectUniqueName": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee.iOS\\DonaLee.iOS.csproj",
       "projectName": "DonaLee.iOS",
-      "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee.iOS\\DonaLee.iOS.csproj",
+      "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee.iOS\\DonaLee.iOS.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee.iOS\\obj\\",
+      "outputPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee.iOS\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2004,8 +2004,8 @@
       "frameworks": {
         "xamarinios10": {
           "projectReferences": {
-            "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\DonaLee.csproj": {
-              "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\DonaLee.csproj"
+            "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\DonaLee.csproj": {
+              "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\DonaLee.csproj"
             }
           }
         }

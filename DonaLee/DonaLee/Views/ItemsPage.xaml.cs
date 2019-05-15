@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-
 using DonaLee.Models;
 using DonaLee.Views;
 using DonaLee.ViewModels;
@@ -31,7 +30,7 @@ namespace DonaLee.Views
             if (item == null)
                 return;
 
-            await Navigation.PushAsync(new ItemDetailPage(new ItemDetailViewModel(item)));
+            await Navigation.PushAsync(new ItemDetailPage(item));
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;

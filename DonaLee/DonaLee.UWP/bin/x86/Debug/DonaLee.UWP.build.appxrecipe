@@ -10,22 +10,22 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=8d531c21-2163-491f-b5a2-88365a431e09</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType></RemoteDeploymentType>
     <PackageRegistrationPath></PackageRegistrationPath>
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\AppX</LayoutDir>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.exe">
       <PackagePath>entrypoint\DonaLee.UWP.exe</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\firebasedatabase.net\4.0.1\lib\netstandard2.0\Firebase.dll">
@@ -64,142 +64,142 @@
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\xamarin.forms.maps\3.6.0.344457\lib\uap10.0\Xamarin.Forms.Maps.dll">
       <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\bin\Debug\netstandard2.0\DonaLee.dll">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee\bin\Debug\netstandard2.0\DonaLee.dll">
       <PackagePath>DonaLee.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProgramData\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\add.png">
       <PackagePath>add.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\save.png">
       <PackagePath>save.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.xr.xml">
       <PackagePath>DonaLee.UWP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
@@ -208,10 +208,10 @@
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\xamarin.forms\3.6.0.344457\lib\uap10.0\Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml">
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\DonaLee.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\DonaLee.UWP.exe">
       <PackagePath>DonaLee.UWP.exe</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>

@@ -18,8 +18,9 @@ namespace DonaLee.Views
 
             menuItems = new List<HomeMenuItem>
             {
-                new HomeMenuItem {Id = MenuItemType.Prueba, Title="Prueba" },
-                new HomeMenuItem {Id = MenuItemType.Browse, Title="Browse" },
+                new HomeMenuItem {Id = MenuItemType.Prueba, Title="Perfil" },
+                new HomeMenuItem {Id = MenuItemType.Browse, Title="Buscar Libro" },
+                new HomeMenuItem {Id = MenuItemType.MisLibros, Title="Mis Libros" },
                 new HomeMenuItem {Id = MenuItemType.About, Title="About" }
             };
 

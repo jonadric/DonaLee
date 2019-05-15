@@ -33,11 +33,8 @@
                 <Label Text="Editorial" FontSize="Medium" />
                 <Entry Text="{Binding _libro.Editorial__c}" Placeholder="Descripcion del libro" FontSize="Small" />
                 <Label Text="Genero" FontSize="Medium" />
-                <Picker Title="Select a monkey"
-        TitleColor="Red"
-        ItemsSource="{Binding Monkeys}"
-        ItemDisplayBinding="{Binding Name}" />
-                <Entry Text="{Binding _libro.Genero__c}" Placeholder="Descripcion del libro" FontSize="Small" />
+                <Picker x:Name="pickerGenero" Title="Elige un Genero" ItemsSource="{Binding ListGeneros}" ItemDisplayBinding="{Binding NameGen}" />
+                <!--<Entry Text="{Binding _libro.Genero__c}" Placeholder="Descripcion del libro" FontSize="Small" />-->
                 <Label Text="Descripción" FontSize="Medium" />
                 <Entry Text="{Binding _libro.Descripcion__c}" Placeholder="Descripcion del libro" FontSize="Small" />
                 <Label Text="Paginas" FontSize="Medium" />

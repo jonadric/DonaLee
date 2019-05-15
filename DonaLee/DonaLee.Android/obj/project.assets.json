@@ -2022,11 +2022,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee.Android\\DonaLee.Android.csproj",
+      "projectUniqueName": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee.Android\\DonaLee.Android.csproj",
       "projectName": "DonaLee.Android",
-      "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee.Android\\DonaLee.Android.csproj",
+      "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee.Android\\DonaLee.Android.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee.Android\\obj\\",
+      "outputPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -2047,8 +2047,8 @@
       "frameworks": {
         "monoandroid81": {
           "projectReferences": {
-            "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\DonaLee.csproj": {
-              "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\DonaLee.csproj"
+            "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\DonaLee.csproj": {
+              "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\DonaLee.csproj"
             }
           }
         }

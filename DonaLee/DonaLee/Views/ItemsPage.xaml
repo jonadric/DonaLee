@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DonaLee.Views.ItemsPage"
-              Title="{Binding Title}"
+             Title="{Binding Title}"
              x:Name="BrowseItemsPage">
     <ContentPage.ToolbarItems>
         <ToolbarItem Text="Donar 👍" Clicked="AddItem_Clicked">
@@ -27,23 +27,23 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell>
-                        <StackLayout Padding="10">
-                            <Image Source="{Binding Imagen__c}" 
-                   VerticalOptions="End" HorizontalOptions="Center"
-                   HeightRequest="70" WidthRequest="50"
-                   TranslationY="10"/>
-                            <Label Text="{Binding Titulo__c}" 
+                        <StackLayout Orientation="Horizontal" Padding="3">
+                            <Image Source="{Binding Imagen__c}" HorizontalOptions="Center"
+                   HeightRequest="70" WidthRequest="50" TranslationY="10"/>
+                            <StackLayout HorizontalOptions="StartAndExpand">
+                                <Label Text="{Binding Titulo__c}" 
                                 LineBreakMode="NoWrap" 
                                 Style="{DynamicResource ListItemTextStyle}" 
                                 FontSize="16" />
-                            <Label Text="{Binding Descripcion__c}" 
+                                <Label Text="{Binding Descripcion__c}" 
                                 LineBreakMode="NoWrap"
                                 Style="{DynamicResource ListItemDetailTextStyle}"
                                 FontSize="13" />
-                            <Label Text="{Binding Autor__c}" 
+                                <Label Text="{Binding Autor__c}" 
                                 LineBreakMode="NoWrap"
                                 Style="{DynamicResource ListItemDetailTextStyle}"
                                 FontSize="8" />
+                            </StackLayout>
                             
                         </StackLayout>
                     </ViewCell>

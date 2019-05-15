@@ -38,13 +38,12 @@ namespace DonaLee.Views
                 var CodNuevoGenerado = allUsers1.Last(); 
                 CodNuevoGenerado.IdUsuario = CodNuevoGenerado.IdUsuario +1;
 
-
                 await conection.AddUser(txtCorreo.Text, txtNombre.Text,txtApellido.Text,txtContrasenia.Text, CodNuevoGenerado.IdUsuario);
-            txtCorreo.Text = string.Empty;
-            txtNombre.Text = string.Empty;
-            txtApellido.Text = string.Empty;
-            txtContrasenia.Text = string.Empty;
-            await DisplayAlert("Registrado", "Usuario registrado", "OK");
+                txtCorreo.Text = string.Empty;
+                txtNombre.Text = string.Empty;
+                txtApellido.Text = string.Empty;
+                txtContrasenia.Text = string.Empty;
+                await DisplayAlert("Registrado", "Usuario registrado", "OK");
                 await Navigation.PushModalAsync(new Login());
 
             }

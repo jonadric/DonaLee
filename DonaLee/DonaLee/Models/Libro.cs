@@ -13,7 +13,7 @@ namespace DonaLee.Models
         public String Imagen__c { get; set; }
         public String ISBN__c { get; set; }
         public String Titulo__c { get; set; }
-        public String Genero__c { get; set; }
+        public String Genero{ get; set; }
         public String Descripcion__c { get; set; }
         public int Valoracion__c { get; set; }
         public String idUser { get; set; } 
@@ -31,7 +31,7 @@ namespace DonaLee.Models
         {
             return "LIBRO [" + "Id :" + IdBook + " " + "ISBN__c :" + ISBN__c + " " + "Titulo__c :" + Titulo__c + " " 
                 + "Editorial__c :" + Editorial__c + " " + "Autor__c :" + Autor__c + " " + "Anio__c :" 
-                + Anio__c + " " + "Imagen__c :" + Imagen__c + " " + "Genero__c :" + Genero__c + " " 
+                + Anio__c + " " + "Imagen__c :" + Imagen__c + " " + "Genero__c :" + Genero + " " 
                 + "Descripcion__c :" + Descripcion__c + "]";
         }
 

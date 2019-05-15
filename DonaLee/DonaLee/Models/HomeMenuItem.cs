@@ -8,6 +8,7 @@ namespace DonaLee.Models
     {
         Prueba,
         Browse,
+        MisLibros,
         About
     }
     public class HomeMenuItem

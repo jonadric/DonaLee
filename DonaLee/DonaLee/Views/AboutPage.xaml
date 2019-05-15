@@ -71,7 +71,7 @@
                     </Label.FormattedText>
                 </Label>
                 <Button Margin="0,10,0,0" Text="Abrir Web"  Style="{StaticResource FollowButton}"
-                        Command="{Binding OpenWebCommand}"
+                        Command="{Binding OpenWaCommand}"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
             </StackLayout>

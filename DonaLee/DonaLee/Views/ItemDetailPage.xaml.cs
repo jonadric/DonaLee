@@ -12,6 +12,7 @@ namespace DonaLee.Views
     public partial class ItemDetailPage : ContentPage
     {
         ItemDetailViewModel viewModel;
+        public Libro item1;
 
         public ItemDetailPage(ItemDetailViewModel viewModel)
         {
@@ -20,24 +21,19 @@ namespace DonaLee.Views
             BindingContext = this.viewModel = viewModel;
         }
 
-        public ItemDetailPage()
+        public ItemDetailPage(Libro item)
         {
             InitializeComponent();
 
-            var item = new Libro
-            {
-                Titulo__c = "Item 1",
-                Descripcion__c = "This is an item descriptio11111n."
-            };
-
-            viewModel = new ItemDetailViewModel(item);
+            item1 = item;
+            viewModel = new ItemDetailViewModel(item1);
             BindingContext = viewModel;
 
         }
 
        async private void BntPedir(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new AboutPage());
+            await Navigation.PushModalAsync(new AboutPage(item1));
 
         }
     }

@@ -26,15 +26,19 @@ namespace DonaLee.Views
             {
                 switch (id)
                 {
+                    case (int)MenuItemType.Prueba:
+                        MenuPages.Add(id, new NavigationPage(new TestDBPage()));
+                        break;
                     case (int)MenuItemType.Browse:
                         MenuPages.Add(id, new NavigationPage(new ItemsPage()));
                         break;
                     case (int)MenuItemType.About:
                         MenuPages.Add(id, new NavigationPage(new AboutPage()));
                         break;
-                    case (int)MenuItemType.Prueba:
-                        MenuPages.Add(id, new NavigationPage(new TestDBPage()));
+                    case (int)MenuItemType.MisLibros:
+                        MenuPages.Add(id, new NavigationPage(new MisLibrosPage()));
                         break;
+
                 }
             }
 

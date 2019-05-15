@@ -1517,11 +1517,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\DonaLee.csproj",
+      "projectUniqueName": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\DonaLee.csproj",
       "projectName": "DonaLee",
-      "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\DonaLee.csproj",
+      "projectPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\DonaLee.csproj",
       "packagesPath": "C:\\Users\\jonat\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee2\\DonaLee\\DonaLee\\obj\\",
+      "outputPath": "C:\\Users\\jonat\\Documents\\Proyectos\\DonaLee\\DonaLee\\DonaLee\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\ProgramData\\Xamarin\\NuGet\\",

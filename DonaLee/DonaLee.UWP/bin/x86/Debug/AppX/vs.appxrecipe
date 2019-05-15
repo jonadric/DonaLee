@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
     <PackageIdentityPublisher>CN=8d531c21-2163-491f-b5a2-88365a431e09</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -18,7 +18,7 @@
     <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
     <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
-    <LayoutDir>C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\AppX</LayoutDir>
+    <LayoutDir>C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\AppX</LayoutDir>
     <RegisteredManifestChecksum>D80C3A57E906DD89FAD57F7B329387B4F1E8D21E4643B2623E67F89CCC3E36EF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>f47c0512-6e24-4440-8ec9-375462b77e68_1.0.0.0_x86__4xn6kpyzwe1da</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>f47c0512-6e24-4440-8ec9-375462b77e68_4xn6kpyzwe1da!App</RegisteredUserModeAppID>
@@ -27,16 +27,16 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-14T16:29:13.666</Modified>
+      <Modified>2019-05-15T03:08:15.673</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.exe">
       <PackagePath>entrypoint\DonaLee.UWP.exe</PackagePath>
-      <Modified>2019-05-14T16:29:12.103</Modified>
+      <Modified>2019-05-15T03:08:07.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\jonat\.nuget\packages\firebasedatabase.net\4.0.1\lib\netstandard2.0\Firebase.dll">
       <PackagePath>Firebase.dll</PackagePath>
@@ -86,180 +86,180 @@
       <PackagePath>Xamarin.Forms.Maps.dll</PackagePath>
       <Modified>2019-04-15T18:29:44.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee\bin\Debug\netstandard2.0\DonaLee.dll">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee\bin\Debug\netstandard2.0\DonaLee.dll">
       <PackagePath>DonaLee.dll</PackagePath>
-      <Modified>2019-05-14T16:29:05.866</Modified>
+      <Modified>2019-05-15T03:07:30.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\ProgramData\Xamarin\NuGet\win2d.uwp\1.20.0\lib\uap10.0\Microsoft.Graphics.Canvas.winmd">
       <PackagePath>Microsoft.Graphics.Canvas.winmd</PackagePath>
       <Modified>2016-11-30T08:58:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
-      <Modified>2019-05-10T01:44:29.652</Modified>
+      <Modified>2019-05-14T23:04:45.429</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-100.png">
       <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.536</Modified>
+      <Modified>2019-05-14T23:04:45.333</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-200.png">
       <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.540</Modified>
+      <Modified>2019-05-14T23:04:45.334</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\LargeTile.scale-400.png">
       <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.548</Modified>
+      <Modified>2019-05-14T23:04:45.338</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-100.png">
       <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.548</Modified>
+      <Modified>2019-05-14T23:04:45.347</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-200.png">
       <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.552</Modified>
+      <Modified>2019-05-14T23:04:45.349</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SmallTile.scale-400.png">
       <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.556</Modified>
+      <Modified>2019-05-14T23:04:45.351</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.560</Modified>
+      <Modified>2019-05-14T23:04:45.352</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.564</Modified>
+      <Modified>2019-05-14T23:04:45.354</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\SplashScreen.scale-400.png">
       <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.564</Modified>
+      <Modified>2019-05-14T23:04:45.355</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.568</Modified>
+      <Modified>2019-05-14T23:04:45.356</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.572</Modified>
+      <Modified>2019-05-14T23:04:45.358</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square150x150Logo.scale-400.png">
       <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.576</Modified>
+      <Modified>2019-05-14T23:04:45.359</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.580</Modified>
+      <Modified>2019-05-14T23:04:45.361</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.580</Modified>
+      <Modified>2019-05-14T23:04:45.362</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.584</Modified>
+      <Modified>2019-05-14T23:04:45.364</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-100.png">
       <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.588</Modified>
+      <Modified>2019-05-14T23:04:45.366</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.592</Modified>
+      <Modified>2019-05-14T23:04:45.367</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.scale-400.png">
       <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.596</Modified>
+      <Modified>2019-05-14T23:04:45.369</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-16.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.600</Modified>
+      <Modified>2019-05-14T23:04:45.370</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-256.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.600</Modified>
+      <Modified>2019-05-14T23:04:45.372</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.604</Modified>
+      <Modified>2019-05-14T23:04:45.373</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.612</Modified>
+      <Modified>2019-05-14T23:04:45.376</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-200.png">
       <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.616</Modified>
+      <Modified>2019-05-14T23:04:45.411</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\StoreLogo.scale-400.png">
       <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.620</Modified>
+      <Modified>2019-05-14T23:04:45.413</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-100.png">
       <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.624</Modified>
+      <Modified>2019-05-14T23:04:45.414</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.624</Modified>
+      <Modified>2019-05-14T23:04:45.415</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-400.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\Assets\Wide310x150Logo.scale-400.png">
       <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2019-05-10T01:44:29.628</Modified>
+      <Modified>2019-05-14T23:04:45.417</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\xamarin_logo.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\xamarin_logo.png">
       <PackagePath>xamarin_logo.png</PackagePath>
-      <Modified>2019-05-10T01:44:29.752</Modified>
+      <Modified>2019-05-14T23:04:46.239</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\add.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\add.png">
       <PackagePath>add.png</PackagePath>
-      <Modified>2019-05-10T01:44:29.656</Modified>
+      <Modified>2019-05-14T23:04:45.431</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\save.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\save.png">
       <PackagePath>save.png</PackagePath>
-      <Modified>2019-05-10T01:44:29.748</Modified>
+      <Modified>2019-05-14T23:04:46.237</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\cancel.png">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\cancel.png">
       <PackagePath>cancel.png</PackagePath>
-      <Modified>2019-05-10T01:44:29.656</Modified>
+      <Modified>2019-05-14T23:04:46.125</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\DonaLee.UWP.xr.xml">
       <PackagePath>DonaLee.UWP.xr.xml</PackagePath>
-      <Modified>2019-05-10T01:44:29.716</Modified>
+      <Modified>2019-05-14T23:04:46.174</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2019-05-14T16:29:11.850</Modified>
+      <Modified>2019-05-15T03:08:06.193</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2019-05-14T16:29:11.850</Modified>
+      <Modified>2019-05-15T03:08:06.194</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.17134.0\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -269,13 +269,13 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Xamarin.Forms.Platform.UAP.xr.xml</PackagePath>
       <Modified>2019-04-15T18:29:16.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2019-05-14T01:20:36.098</Modified>
+      <Modified>2019-05-15T03:08:11.613</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee2\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\DonaLee.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\jonat\Documents\Proyectos\DonaLee\DonaLee\DonaLee.UWP\bin\x86\Debug\Core\DonaLee.UWP.exe">
       <PackagePath>DonaLee.UWP.exe</PackagePath>
-      <Modified>2019-05-14T16:29:13.653</Modified>
+      <Modified>2019-05-15T03:08:15.657</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

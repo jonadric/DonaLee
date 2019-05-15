@@ -6,6 +6,7 @@ namespace DonaLee.Models
 {
     public class Usuario
     {
+
         public String NombresUsuario { get; set; }
         public String ApellidosUsuario { get; set; }
         public String CorreoUsuario { get; set; }
