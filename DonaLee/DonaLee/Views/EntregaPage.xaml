@@ -52,7 +52,7 @@
                                 <Span Text="Acontinuación digita el #ID del usuario a quién deseas entregar el libro" />
                                 <Span Text=" " />
                                 <Span Text="Bogota, Colombia" FontAttributes="Bold" />
-                                <Span Text="UMB" />
+                                <Span Text="UMB. " />
                             </FormattedString.Spans>
                         </FormattedString>
                     </Label.FormattedText>

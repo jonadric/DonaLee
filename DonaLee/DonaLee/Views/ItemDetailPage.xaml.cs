@@ -33,7 +33,7 @@ namespace DonaLee.Views
 
        async private void BntPedir(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new AboutPage(item1));
+            await Navigation.PushModalAsync(new SolicitudPage(item1));
 
         }
     }
