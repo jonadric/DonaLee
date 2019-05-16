@@ -66,6 +66,7 @@ namespace DonaLee.Models
                   .Child(toUpdatePerson.Key)
                   .PutAsync(new Usuario() { IdUsuario = IdUsuario, NombresUsuario = NombresUsuario });
             }
+            
 
             public async Task DeleteUser(int IdUsuario)
             {
@@ -104,6 +105,18 @@ namespace DonaLee.Models
             await firebase
               .Child("Books")
               .PostAsync(new Libro() { Anio__c = booksito.Anio__c, Autor__c = booksito.Autor__c, Descripcion__c = booksito.Descripcion__c, Editorial__c = booksito.Editorial__c, Genero = booksito.Genero, Imagen__c = booksito.Imagen__c, ISBN__c = booksito.ISBN__c, Titulo__c =booksito.Titulo__c,idUser= idUser.ToString(),IdBook=booksito.IdBook,Paginas=booksito.Paginas,Ubicacion=booksito.Ubicacion});
+        }
+        public async Task UpdateBookByID(Libro Libre,int IdNewUser)
+        {
+            var toUpdateBook = (await firebase
+                  .Child("Books")
+                  .OnceAsync<Libro>()).Where(a => a.Object.IdBook == Libre.IdBook).FirstOrDefault();
+
+            await firebase
+              .Child("Books")
+              .Child(toUpdateBook.Key)
+              .PutAsync(new Libro() { Anio__c = Libre.Anio__c, Autor__c = Libre.Autor__c, Descripcion__c = Libre.Descripcion__c, Editorial__c = Libre.Editorial__c, Genero = Libre.Genero, Imagen__c = Libre.Imagen__c, ISBN__c = Libre.ISBN__c, Titulo__c = Libre.Titulo__c, idUser = IdNewUser.ToString(), IdBook = Libre.IdBook, Paginas = Libre.Paginas, Ubicacion = Libre.Ubicacion });
+           
         }
 
 

@@ -26,7 +26,7 @@ namespace DonaLee.Views
             if (item == null)
                 return;
 
-            await Navigation.PushAsync(new MisLibrosDetailPage(new ItemDetailViewModel(item)));
+            await Navigation.PushAsync(new MisLibrosDetailPage(item));
 
             // Manually deselect item.
             ItemsListView.SelectedItem = null;

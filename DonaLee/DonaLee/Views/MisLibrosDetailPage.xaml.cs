@@ -1,11 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+
 using DonaLee.ViewModels;
 using DonaLee.Models;
 
@@ -32,7 +29,7 @@ namespace DonaLee.Views
         }
         async private void BntEntregar(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new EntregaPage());
+            await Navigation.PushModalAsync(new EntregaPage(item1));
 
         }
     }

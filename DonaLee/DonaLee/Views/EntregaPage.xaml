@@ -5,10 +5,7 @@
              xmlns:vm="clr-namespace:DonaLee.ViewModels"
              Title="{Binding Title}">
 
-    <ContentPage.BindingContext>
-        <vm:EntregaModel />
-    </ContentPage.BindingContext>
-    
+  
 
 <ContentPage.Resources>
     <ResourceDictionary>
@@ -57,8 +54,10 @@
                         </FormattedString>
                     </Label.FormattedText>
                 </Label>
-                <Button Margin="0,10,0,0" Text="Entregar"  Style="{StaticResource FollowButton}"
-                        Command="{Binding EntregaCommand}"
+                <Entry x:Name="txtID"  Placeholder="Ingresa ID" Keyboard="Numeric"></Entry>
+
+                <Button Margin="0,10,0,0" Text="Entregar"  Style="{StaticResource FollowButton}"  
+                        Clicked="BtnUpdateBook"
                         BackgroundColor="{StaticResource Primary}"
                         TextColor="White" />
         </StackLayout>
