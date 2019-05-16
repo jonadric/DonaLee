@@ -11,6 +11,7 @@ namespace DonaLee.Models
         public String ApellidosUsuario { get; set; }
         public String CorreoUsuario { get; set; }
         public String ContraseniaUsuario { get; set; }
+        public String NumeroTelefonico { get; set; }
         public int IdUsuario { get; set; }
         
     }

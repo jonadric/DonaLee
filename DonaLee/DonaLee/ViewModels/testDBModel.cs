@@ -9,11 +9,9 @@ namespace DonaLee.ViewModels
     {
         public testDBModel()
         {
-            Title = "Prueba FireBase";
-
-            OpenWebCommand = new Command(() => Device.OpenUri(new Uri("https://xamarin.com/platform")));
-        }
-        public ICommand OpenWebCommand { get; }
+            Title = "Perfil";
+            
+        }        
 
     }
         

@@ -17,9 +17,11 @@ namespace DonaLee.Models
         public String Descripcion__c { get; set; }
         public int Valoracion__c { get; set; }
         public String idUser { get; set; } 
-        
+        public String Estado { get; set; }
+        public String Reseña { get; set; }
+        public int likes { get; set; }
+        public int dislikes { get; set; }
         public int Paginas { get; set; }
-
         public Ubicacion Ubicacion { get; set; }
         
         public Libro()

@@ -25,13 +25,11 @@
         </Grid.RowDefinitions>
         <StackLayout BackgroundColor="{StaticResource Accent}" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
             <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
-                <ContentView Padding="0,40,0,40" VerticalOptions="FillAndExpand">
-                    <Image Source="https://i.ibb.co/YZynrNm/logo.jpg" VerticalOptions="Center" HeightRequest="64" />
-                </ContentView>
+                <Image Source="https://i.ibb.co/YZynrNm/logo.jpg" VerticalOptions="Center" HeightRequest="64" />
+                
             </StackLayout>
         </StackLayout>
-        <ScrollView Grid.Row="1">
-            
+        <ScrollView Grid.Row="1">            
             <StackLayout Orientation="Vertical" Padding="16,40,16,40" Spacing="10">
                 <WebView x:Name="webView" WidthRequest="500" HeightRequest="500" />
                 <Label FontSize="22">

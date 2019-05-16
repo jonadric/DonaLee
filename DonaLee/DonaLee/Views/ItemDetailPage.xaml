@@ -15,9 +15,9 @@
                 </Grid.RowDefinitions>
 
                 <!-- header background -->
-                <!--<Image Source="https://dazzet.co/wp-content/uploads/sites/26/2017/04/PG-08-s01-background-bogota.jpg" Aspect="AspectFill"/>-->
-                <Image Source="https://perronocomeperroblog.files.wordpress.com/2016/05/cropped-cabecera-pncp.jpg" Aspect="Fill"
-                   VerticalOptions="End"/>
+                <Image Source="https://dazzet.co/wp-content/uploads/sites/26/2017/04/PG-08-s01-background-bogota.jpg" Aspect="AspectFill"/>
+                <!--<Image Source="https://perronocomeperroblog.files.wordpress.com/2016/05/cropped-cabecera-pncp.jpg" Aspect="Fill"-->
+                   <!--VerticalOptions="End"/>-->
 
                 <!-- profile name -->
                 <StackLayout Grid.Row="1" Padding="0,50,0,0">
@@ -25,11 +25,15 @@
                        Style="{StaticResource ProfileNameLabel}"/>
                     <Label Text="{Binding Item.Autor__c}"
                        Style="{StaticResource ProfileTagLabel}"/>
-                    <Label  Text="{Binding Item.Paginas}"  Style="{StaticResource ProfileNameLabel}"/>
+                    <StackLayout HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
+                        <Label  Text="Paginas : "  Style="{StaticResource ProfileNameLabel}"/>
+                        <Label  Text="{Binding Item.Paginas}"  Style="{StaticResource ProfileNameLabel}"/>
+                    </StackLayout>
+                    
                 </StackLayout>
 
                 <!-- social stats -->
-                <Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0">
+                <!--<Grid Grid.Row="2" Margin="0,30" ColumnSpacing="0">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="*"/>
                         <ColumnDefinition Width="*"/>
@@ -50,7 +54,7 @@
                         <Label Text="2" Style="{StaticResource StatsNumberLabel}"/>
                         <Label Text="Lo donaron" Style="{StaticResource StatsCaptionLabel}"/>
                     </StackLayout>
-                </Grid>
+                </Grid>-->
                 <!-- profile description -->
                 <Label Text="{Binding Item.Descripcion__c}"
                 Grid.Row="3"

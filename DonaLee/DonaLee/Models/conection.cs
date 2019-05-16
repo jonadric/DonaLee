@@ -46,7 +46,16 @@ namespace DonaLee.Models
                 return allUsers.Where(a => a.CorreoUsuario == correo).FirstOrDefault();
             }
 
-            public async Task UpdateUser(int IdUsuario, string NombresUsuario)
+        public async Task<Usuario> GetUserById(int id)
+        {
+            var allUsers = await GetAllUsers();
+            await firebase
+              .Child("Users")
+              .OnceAsync<Usuario>();
+            return allUsers.Where(a => a.IdUsuario == id).FirstOrDefault();
+        }
+
+        public async Task UpdateUser(int IdUsuario, string NombresUsuario)
             {
                 var toUpdatePerson = (await firebase
                   .Child("Users")
