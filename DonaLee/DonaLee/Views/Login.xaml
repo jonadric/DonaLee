@@ -1,20 +1,44 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="DonaLee.Views.Login">
+             xmlns:ef="clr-namespace:DonaLee"
+             x:Class="DonaLee.Views.Login"
+             BackgroundImage="iniciar_sesion3.png">
     <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="100*" />
+            </Grid.RowDefinitions>
+        
         <StackLayout>
             <StackLayout>
-                <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
-                    <Image x:Name="imgBanner" Source="https://i.ibb.co/YZynrNm/logo.jpg"></Image>
+                <StackLayout HorizontalOptions="Center" VerticalOptions="Start" Padding="0,0,0,0">
+                    <Image x:Name="imgBanner" Source="login2.jpg"></Image>
                    
                     <Label Margin="0,0,0,10" Text="Ingresa" FontAttributes="Bold" FontSize="Large" TextColor="Gray" HorizontalTextAlignment="Center" ></Label>
-                    <Entry x:Name="txtCorreo" Placeholder="Correo Electronico"></Entry>
-                    <Entry x:Name="txtContrasenia" Placeholder="Contraseña" IsPassword="True"></Entry>
+                    <Label Text="Correo Electonico" Opacity="1" FontAttributes="Bold" TextColor="Black"/>
+                        <Frame CornerRadius="5" Padding="5, 5, 5, 5" OutlineColor="#F8D21D" 
+                       HorizontalOptions="FillAndExpand" Opacity="1">
+                        <StackLayout>
+                            <Entry x:Name="txtCorreo" Placeholder="Ej: usuario@correo.com" FontAttributes="Italic" Style="{StaticResource EntryButton}" BackgroundColor="Transparent"></Entry>
+                        </StackLayout>
+                    </Frame>
+                    <Label Text="Contraseña" Opacity="1" FontAttributes="Bold" TextColor="Black"/>
+                        <Frame CornerRadius="5" Padding="5, 5, 5, 5" OutlineColor="#F8D21D" 
+                       HorizontalOptions="FillAndExpand" Opacity="1">
+                        <StackLayout>
+                            <Entry x:Name="txtContrasenia" Placeholder="Ingresa tu contraseña" PlaceholderColor="Gray" FontAttributes="Italic" Style="{StaticResource EntryButton}" IsPassword="True">
+                                <Entry.Effects>
+                                    <ef:ShowHidePassEffect />
+                                </Entry.Effects>
+                            </Entry>
+                            </StackLayout>
+                    </Frame>
                     <StackLayout  HorizontalOptions="CenterAndExpand" Orientation="Horizontal">
                         <Button x:Name="btnAdd" Style="{StaticResource FollowButton}" WidthRequest="150" Text="Registrarse" Clicked="BtnToReg_Clicked"/>
                         <Button x:Name="btnEnter" Style="{StaticResource FollowButton}" WidthRequest="150" Text="Ingresar" Clicked="BtnEnter_Clicked"/>
                     </StackLayout>
+                    
                     <!--<ListView x:Name="lstUsers"  >
                         <ListView.ItemTemplate>
                             <DataTemplate>
@@ -25,5 +49,28 @@
                 </StackLayout>
             </StackLayout>
         </StackLayout>
+        <ContentView x:Name="bgLayer"
+                    BackgroundColor="#000000"
+                    IsVisible="{Binding IsBusy}"
+                    Opacity="0.2" />
+        <Frame x:Name="frameLayer"
+            BackgroundColor="#ffffff"
+            HorizontalOptions="CenterAndExpand"
+            IsVisible="{Binding IsBusy}"
+            VerticalOptions="CenterAndExpand">
+            <StackLayout>
+                <ActivityIndicator x:Name="indicatorLoader"
+                            BackgroundColor="Transparent"
+                            IsRunning="{Binding IsBusy}"
+                            IsVisible="{Binding IsBusy}"
+                            VerticalOptions="CenterAndExpand"
+                            Color="#D5A70A" />
+                <Label HorizontalTextAlignment="Center"
+                Text="Iniciando Sesión..."
+                TextColor="#000000"
+                XAlign="Center" />
+            </StackLayout>
+        </Frame>
+        </Grid>
     </ContentPage.Content>
 </ContentPage>

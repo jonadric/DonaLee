@@ -18,6 +18,8 @@ namespace DonaLee.Views
         public Login()
         {
             InitializeComponent();
+            this.BindingContext = this;
+            this.IsBusy = false;
         }
         protected async override void OnAppearing()
         {
@@ -28,12 +30,14 @@ namespace DonaLee.Views
 
         async private void BtnEnter_Clicked(Object sender, EventArgs e)
         {
+            this.IsBusy = true;
             UserApp = await conection.GetUser(txtCorreo.Text);
             if (UserApp != null)
             {
                 // txtCorreo.Text = User.IdUsuario.ToString();
                 if (txtContrasenia.Text == UserApp.ContraseniaUsuario)
                 {
+                    this.IsBusy = false;
                     await DisplayAlert("DonaLee", "Bienvenido", "OK");
                     App.Current.Properties["id_User"] = UserApp.IdUsuario.ToString();
                     App.Current.MainPage = new MainPage();
@@ -46,6 +50,7 @@ namespace DonaLee.Views
             else
             {
                 await DisplayAlert("Error", "Usuario invalido", "OK");
+                this.IsBusy = false;
             }
 
             // Debug.Write("Entro a LoginBtn");

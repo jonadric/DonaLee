@@ -9,6 +9,8 @@
             <Color x:Key="HeaderTextColor">#585858</Color>
             <Color x:Key="BodyTextColor">#C3C3C3</Color>
             <Color x:Key="ButtonBackgroundColor">#5992FF</Color>
+            <Color x:Key="EntryBackgroundColor">#FFFFFF</Color>
+            <Color x:Key="PlaceHolderColor">#F8D21D</Color>
 
             <!--  font families  -->
             <OnPlatform x:Key="RegularFontFamily" x:TypeArguments="x:String">
@@ -76,6 +78,14 @@
                 <Setter Property="TextColor" Value="White" />
                 <Setter Property="HeightRequest" Value="40" />
                 <Setter Property="BorderRadius" Value="20" />
+                <Setter Property="FontFamily" Value="{StaticResource MediumFontFamily}" />
+                <Setter Property="FontSize" Value="{StaticResource ButtonFontSize}" />
+            </Style>
+            <Style x:Key="EntryButton" TargetType="Entry">
+                <Setter Property="BackgroundColor" Value="{StaticResource EntryBackgroundColor}" />
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="HeightRequest" Value="40" />
+                <!--<Setter Property="Border" Value="10" />-->
                 <Setter Property="FontFamily" Value="{StaticResource MediumFontFamily}" />
                 <Setter Property="FontSize" Value="{StaticResource ButtonFontSize}" />
             </Style>
